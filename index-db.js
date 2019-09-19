@@ -8,7 +8,6 @@ var con = mysql.createConnection({ host: process.env.MYSQL_HOST, user: process.e
 con.connect(function(err){
   if(err){
     console.log('Error connecting to db: ', err);
-    console.log('Error connecting to db: ', err);
     return;
   }
   console.log('Connection to db established');
